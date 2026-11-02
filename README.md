@@ -15,7 +15,7 @@
 ## ✨ Fitur Utama
 
 ### 📚 Perpustakaan Hadits Lengkap
-- Membaca hadits dari **9 kitab utama** (Shahih Bukhari, Shahih Muslim, Sunan Abu Dawud, Sunan Tirmidzi, Sunan Nasai, Sunan Ibnu Majah, Musnad Ahmad, Muwatta Malik, Sunan Darimi)
+- Membaca hadits dari **9 kitab utama** (Shahih Bukhari, Shahih Muslim, Sunan Abu Dawud, Sunan Tirmidzi, Sunan Nasai, Sunan Ibnu Majah, Musnad Ahmad, Muwatta Malik, Sunan Darimi) dan **5 kitab tambahan** (Sunan Daruquthni, Shahih Ibnu Khuzaimah, Shahih Ibnu Hibban, Al-Mustadrak Al-Hakim, Musnad Syafi'i)
 - Navigasi antar hadits dengan **swipe gesture** (kanan/kiri)
 - Lompat ke nomor hadits tertentu (Jump to Hadith)
 - Penomoran hadits standar dan penomoran alternatif kitab penerbit
