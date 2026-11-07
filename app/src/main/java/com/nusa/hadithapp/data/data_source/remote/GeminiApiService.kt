@@ -58,7 +58,7 @@ class GeminiApiService @Inject constructor(
             )
         }
 
-        val effectiveModel = if (model.isNotBlank()) model else "gemini-1.5-flash"
+        val effectiveModel = if (model.isNotBlank()) model else "gemini-3.1-flash-lite"
         val url = "$BASE_URL/$effectiveModel:generateContent?key=$apiKey"
 
         val hadithContext = buildString {

@@ -35,7 +35,7 @@ data class SettingsState(
     val reminderHour: Int = 5,
     val reminderMinute: Int = 30,
     val geminiApiKey: String = "",
-    val geminiModel: String = "gemini-1.5-flash"
+    val geminiModel: String = "gemini-3.1-flash-lite"
 ) {
     fun toFontSettingsState(): FontSettingsState {
         return FontSettingsState(
@@ -114,7 +114,7 @@ class SettingsPreferencesRepository @Inject constructor(
             reminderHour = prefs[Keys.REMINDER_HOUR] ?: 5,
             reminderMinute = prefs[Keys.REMINDER_MINUTE] ?: 30,
             geminiApiKey = prefs[Keys.GEMINI_API_KEY] ?: "",
-            geminiModel = prefs[Keys.GEMINI_MODEL] ?: "gemini-1.5-flash"
+            geminiModel = prefs[Keys.GEMINI_MODEL] ?: "gemini-3.1-flash-lite"
         )
     }
 
